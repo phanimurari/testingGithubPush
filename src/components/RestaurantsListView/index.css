@@ -1,0 +1,33 @@
+.restaurants-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.popular-restaurants-heading {
+  font-family: DM Sans;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #183b56;
+}
+
+@media screen and (max-width: 767px) {
+  .popular-restaurants-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.restaurant-details-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

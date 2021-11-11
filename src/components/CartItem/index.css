@@ -1,0 +1,54 @@
+.desktop-cart-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.cart-food-image {
+  width: 136px;
+  height: 100px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.image-name-container {
+  display: flex;
+  align-items: center;
+  margin-left: 48px;
+  margin-left: 0;
+  width: 33%;
+}
+
+.counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+}
+
+.item-quantity {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.food-cost {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffa412;
+}
+
+.food-name {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #183b56;
+}
